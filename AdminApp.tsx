@@ -6,7 +6,7 @@ import {
     Upload, Save, ChevronRight, AlertTriangle, Play, Settings,
     Eye, Check, X
 } from 'lucide-react';
-import { Card, Button, Input, Select, Modal, Badge, ProgressBar } from './components/UI';
+import { Card, Button, Input, Select, Modal, Badge, ProgressBar } from './UI';
 import { AppState, Student, Exam, Question, LibraryItem, Notice, ExamResult } from './types';
 import { auth, db, uploadToCloudinary } from './services';
 import { ref, onValue, set, update, push, remove } from 'firebase/database';

@@ -6,7 +6,7 @@ import {
     Calendar, Star, TrendingUp, Zap, Wifi, WifiOff, Camera, Maximize2, Upload, Search, Filter,
     BarChart3, Check, X as XIcon, RotateCcw
 } from 'lucide-react';
-import { Card, Button, Input, Modal, Badge, ProgressBar, Skeleton } from './components/UI';
+import { Card, Button, Input, Modal, Badge, ProgressBar, Skeleton } from './UI';
 import { AppState, Student, Exam, LibraryItem, ExamResult, Question } from './types';
 import { auth, db, uploadToCloudinary } from './services';
 import { ref, onValue, set, update, push, onDisconnect, get } from 'firebase/database';
